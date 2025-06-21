@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bot Flottant Pocket Option</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bot-container">
+    <div id="header">📊 Signal Bot (M1 - Price Action)</div>
+    <div id="signal">⏳ Chargement...</div>
+    <div id="pair">Paire : EUR/USD OTC</div>
+    <button onclick="window.open('https://pocketoption.com/fr', '_blank')">🎯 Ouvrir Pocket Option</button>
+  </div>
+
+  <div id="tradingview">
+    <iframe
+      src="https://www.tradingview.com/chart/?symbol=FX:EURUSD"
+      frameborder="0"
+      width="100%"
+      height="600"
+    ></iframe>
+  </div>
+
+  <script src="logic.js"></script>
+</body>
+</html>
