@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+}
+
+#bot-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 260px;
+  background: #1f1f1f;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  padding: 15px;
+  z-index: 9999;
+  cursor: move;
+}
+
+#header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #00ffcc;
+}
+
+#signal {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #00ffcc;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #00e6b8;
+}
+
+iframe {
+  border: none;
+}
+
+#tradingview {
+  margin-top: 80px;
+}
